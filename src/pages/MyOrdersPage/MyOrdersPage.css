@@ -1,0 +1,89 @@
+.my-orders-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.my-orders-container h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #1a73e8;
+}
+
+.order-card {
+  background-color: #65c3c3;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: transform 0.2s ease;
+}
+
+.order-card:hover {
+  transform: scale(1.01);
+  background-color: rgb(229, 167, 32);
+}
+
+.order-card p {
+  margin: 0.5rem 0;
+  line-height: 1.5;
+}
+
+.order-card strong {
+  color: #444;
+}
+
+.order-card ul {
+  padding-left: 1.5rem;
+  margin: 0.5rem 0 0 0;
+}
+
+.order-card li {
+  margin-bottom: 0.5rem;
+  list-style-type: disc;
+}
+.order-items-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.order-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding: 1rem 0;
+}
+
+.item-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 1rem;
+  border: 1px solid #ccc;
+}
+
+.item-details p {
+  margin: 0.2rem 0;
+  font-size: 0.95rem;
+}
+
+
+@media (max-width: 600px) {
+  .my-orders-container {
+    padding: 1rem 0.5rem;
+  }
+
+  .order-card {
+    padding: 1rem;
+  }
+
+  .my-orders-container h2 {
+    font-size: 1.5rem;
+  }
+}
