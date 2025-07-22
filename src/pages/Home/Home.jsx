@@ -44,6 +44,7 @@ function Home() {
 
   return (
     <>
+      {/* it's navebar */}
       <Navbar />
       <div>
         <div className="home-banner">
