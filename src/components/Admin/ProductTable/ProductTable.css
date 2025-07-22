@@ -1,0 +1,120 @@
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-table th, .product-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.product-table th {
+  background-color: #249cc5;
+}
+
+.product-table .deletebtn {
+  background-color: #e74c3c; /* Red */
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-table .editbtn {
+    background-color: #10aa1f; /* Red */
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.editbtn:hover {
+  background-color: #249cc5;
+  transform: scale(1.05);
+}
+
+.editbtn:active {
+  transform: scale(0.95);
+}
+
+.deletebtn:hover {
+  background-color: #100301;
+  transform: scale(1.05);
+}
+.deletebtn:active {
+  transform: scale(0.95);
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.edit-form {
+  background-color: #fff;
+  padding: 30px 25px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-form h3 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.edit-form input,
+.edit-form select {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+.edit-form input:focus,
+.edit-form select:focus {
+  border-color: #555;
+}
+
+.edit-form button {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #2c3e50;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.2s;
+}
+
+.edit-form button:hover {
+  background-color: #dedb20;
+  transform: scale(1.05);
+  color: #4b524c;
+
+}
+
+.edit-form button:active {
+  transform: scale(0.95);
+}

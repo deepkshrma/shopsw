@@ -1,0 +1,13 @@
+.dashboard-cards {
+  display: flex;
+  gap: 20px;
+}
+
+
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  width: 200px;
+  text-align: center;
+}

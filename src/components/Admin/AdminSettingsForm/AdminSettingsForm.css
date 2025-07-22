@@ -1,0 +1,103 @@
+.admin-settings {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  font-family: "Segoe UI", sans-serif;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.admin-settings h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #ba0808;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.admin-settings form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.admin-settings h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #444;
+}
+
+.admin-settings input[type="text"],
+.admin-settings input[type="email"],
+.admin-settings input[type="file"] {
+  padding: 10px 14px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #f9f9f9;
+  transition: border 0.2s ease;
+}
+
+.admin-settings input:focus {
+  outline: none;
+  border-color: #888;
+  background-color: #fff;
+}
+
+.admin-settings label {
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.admin-settings div {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-settings button {
+  margin-top: 10px;
+  padding: 12px 16px;
+  background-color: #3b4b3b;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.admin-settings button:hover {
+  background-color: #4f2e1e;
+  transform: scale(1.05);
+}
+
+.admin-settings button:active {
+  background-color: #2e7031;
+  transform: scale(0.95);
+}
+
+.image-preview {
+  margin: 10px 0;
+}
+.image-preview img {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  max-height: 100px;
+  object-fit: contain;
+}

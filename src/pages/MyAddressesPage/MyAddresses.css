@@ -1,0 +1,85 @@
+.my-addresses-container {
+  padding: 2rem;
+  max-width: 700px;
+  margin: auto;
+}
+
+.address-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.delete-btn {
+  margin-top: 0.5rem;
+  background-color: rgb(229, 167, 32);
+  color: white;
+  border: none;
+  padding: 0.4rem 1.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.delete-btn:hover {
+  background-color: #d82408;
+  color: black;
+  transform: scale(1.05);
+}
+.delete-btn:active {
+  transform: scale(0.95);
+}
+
+.add-address-btn {
+  margin-top: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-address-btn:hover {
+  transform: scale(1.05);
+
+}
+
+.add-address-btn:active {
+  transform: scale(0.95);
+}
+
+
+.new-address-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin-top: 1rem;
+}
+
+.new-address-form input {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.save-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 0.6rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.save-btn:hover {
+  background-color: #28a745;
+  transform: scale(1.05);
+  color:black;
+}
+
+.save-btn:active {
+  background-color: white;
+  transform: scale(0.95);
+}
