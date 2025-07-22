@@ -46,6 +46,7 @@ function Home() {
     <>
       {/* it's navebar */}
       <Navbar />
+      <h1> Shopswift demo line</h1>
       <div>
         <div className="home-banner">
           {settings?.heroImage && (
